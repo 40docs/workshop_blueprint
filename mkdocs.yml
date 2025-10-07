@@ -103,3 +103,20 @@ extra:
 
 not_in_nav: |
   /index.md
+
+# Navigation
+nav:
+  - Home: index.md
+  - Hands on Labs:
+      - Introduction: Hands-on-Labs/index.md
+      - Getting Started:
+          - Accessing Your Azure Account: Hands-on-Labs/start-azure-account.md
+          - Deploying Your Lab Environment in Azure: Hands-on-Labs/start-deploy.md
+      - Labs:
+          - Lab 1 - Azure NSG & FortiGate: Hands-on-Labs/hol-nsg-fgt-lab-1.md
+          - Lab 2 - FortiWeb: Hands-on-Labs/hol-fwb-lab-2.md
+      - Resources:
+          - Reference Architecture: Hands-on-Labs/architecture.md
+          - FortiWeb Bootstrap: Hands-on-Labs/bootstrap.md
+          - Cloud Role Play: Hands-on-Labs/role-play.md
+          - Download HoL (pdf): Hands-on-Labs/download-pdf.md
