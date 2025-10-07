@@ -4,8 +4,7 @@
 
 ---
 
-<center>![](img/icon-azure-128.svg#only-light)![](img/icon-fortigate.svg#only-light)![](img/icon-fortiweb-128.svg#only-light)</center>
-<center>![](img/icon-azure-128.svg#only-dark)![](img/icon-fortigate.svg#only-dark)![](img/icon-fortiweb-dark-128.svg#only-dark)</center>
+<center>![](img/icon-azure-128.svg)![](img/icon-fortigate.svg)![](img/icon-fortiweb-dark-128.svg)</center>
 ---
 
 ## Introduction
