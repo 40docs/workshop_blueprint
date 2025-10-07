@@ -4,8 +4,8 @@
 
 ---
 
-<center>![](img/icon-azure-128.svg#only-light)![](img/icon-fortigate.svg#only-light)![](img/icon-fortiweb-128.svg#only-light)</center>
-<center>![](img/icon-azure-128.svg#only-dark)![](img/icon-fortigate.svg#only-dark)![](img/icon-fortiweb-dark-128.svg#only-dark)</center>
+<center>![](images/icon-azure-128.svg#only-light) ![](images/icon-fortigate.svg#only-light) ![](images/icon-fortiweb-128.svg#only-light)</center>
+<center>![](images/icon-azure-128.svg#only-dark) ![](images/icon-fortigate.svg#only-dark) ![](images/icon-fortiweb-dark-128.svg#only-dark)</center>
 ---
 
 ## Introduction
@@ -44,7 +44,7 @@ This template automatically deploys a **FortiGate** cluster, a **FortiWeb** clus
 
     It features a **FortiGate** Next Generation Firewall, **FortiWeb WAF**, and **DVWA** Endpoint.
 
-    ![](img/fwb-bicep-fortinet.png)
+    ![](images/fwb-bicep-fortinet.png)
     
     The WAF secures web servers against inbound attacks over HTTP/HTTPS, while the Next Generation Firewall supports various protocols, enabling connectivity, multi-protocol security, and serving as the primary egress mechanism. The FortiGate and FortiWeb solutions complement each other, with FortiWeb offering advanced features for HTTP/HTTPS traffic and FortiGate providing extensive capabilities for other protocols, routing, VPN termination, and SD-WAN.
 
@@ -67,7 +67,7 @@ This template automatically deploys a **FortiGate** cluster, a **FortiWeb** clus
 
     <span style="color:red;">Click on the image if you want to enlarge it.</span>
 
-    ![](img/fwb-bicep-templates.png)
+    ![](images/fwb-bicep-templates.png)
 
 ??? note "FortiWeb Deployment"
     FortiWeb is deployed with **2 interfaces** as an **active-active** cluster in **reverse proxy mode**.
@@ -79,4 +79,4 @@ This template automatically deploys a **FortiGate** cluster, a **FortiWeb** clus
 
     <span style="color:red;">Click on the image if you want to enlarge it.</span>
 
-    ![](img/fwb-fortiweb-azure-toplology.png)
+    ![](images/fwb-fortiweb-azure-toplology.png)
