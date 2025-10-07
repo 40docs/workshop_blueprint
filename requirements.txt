@@ -1,0 +1,15 @@
+mkdocs>=1.5.0
+mkdocs-material>=9.0.0
+mkdocs-material[imaging]
+mkdocs-glightbox>=0.3.4
+pymdown-extensions>=10.0.0
+mkdocs-awesome-pages-plugin
+mkdocs-git-authors-plugin
+mkdocs-git-committers-plugin-2
+mkdocs-git-revision-date-localized-plugin
+mkdocs-minify-plugin
+mkdocs-monorepo-plugin
+mkdocs-pdf-export-plugin
+mkdocs-same-dir
+mkdocstrings[crystal,python]
+mkdocs-with-pdf

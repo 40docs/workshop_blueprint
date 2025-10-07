@@ -1,0 +1,120 @@
+site_name: Cloud Workshop
+site_description: Azure Cloud Workshop Documentation
+site_author: 40docs
+site_url: https://40docs.github.io/workshop_content_template/
+copyright: "40docs Organization"
+
+# Repository
+repo_name: 40docs/workshop_azure
+repo_url: https://github.com/40docs/workshop_content_template
+edit_uri: edit/main/docs/
+
+# Theme configuration
+theme:
+  name: material
+  custom_dir: theme
+  logo: fabric-white.svg
+  logo_dark: fabric-white.svg
+  favicon: favicon.ico
+  font:
+    text: Inter
+    code: Roboto Mono
+  features:
+    - content.action.edit
+    - content.code.annotate
+    - content.code.copy
+    - content.tabs.link
+    - navigation.footer
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - toc.follow
+  palette:
+    scheme: slate
+    primary: black
+    accent: indigo
+
+# Markdown extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tilde
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+  - tables
+  - toc:
+      permalink: true
+      title: On this page
+
+# Plugins
+plugins:
+  - search
+  - glightbox:
+      zoomable: true
+  - with-pdf:
+      author: Fortinet Canada CSE Team
+      copyright: Last Update November 2023
+      cover: true
+      back_cover: false
+      cover_title: Fortinet Azure Blueprint
+      cover_subtitle: Hands-On Lab
+      toc_level: 3
+      ordered_chapter_level: 2
+      output_path: download/fortinet-secure-cloud-blueprint-hol.pdf
+
+# Extra CSS and JavaScript
+extra_css:
+  - extra.css
+
+extra_javascript:
+  - custom.js
+
+# Social links
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/40docs
+
+not_in_nav: |
+  /index.md
+
+# Navigation
+nav:
+  - "Introduction": "Hands-on-Labs/index.md"
+  - "Getting Started":
+      - "Accessing Your Azure Account": "Hands-on-Labs/start-azure-account.md"
+      - "Deploying Your Lab Environment in Azure": "Hands-on-Labs/start-deploy.md"
+  - "Hands on Labs":
+      - "Lab 1 - Azure NSG & FortiGate": "Hands-on-Labs/hol-nsg-fgt-lab-1.md"
+      - "Lab 2 - FortiWeb": "Hands-on-Labs/hol-fwb-lab-2.md"
+  - Resources:
+      - "Reference Architecture": "Hands-on-Labs/architecture.md"
+      - "FortiWeb Bootstrap": "Hands-on-Labs/bootstrap.md"
+      - "Cloud Role Play": "Hands-on-Labs/role-play.md"
+      - "Download HoL (pdf)": "Hands-on-Labs/download-pdf.md"
