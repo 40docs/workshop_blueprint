@@ -87,10 +87,11 @@ plugins:
       toc_level: 3
       ordered_chapter_level: 2
       output_path: download/fortinet-secure-cloud-blueprint-hol.pdf
+      enabled_if_env: ENABLE_PDF_EXPORT
 
 # Extra CSS and JavaScript
-extra_css:
-  - extra.css
+# extra_css:
+#   - extra.css
 
 extra_javascript:
   - javascripts/extra.js
