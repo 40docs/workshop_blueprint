@@ -89,9 +89,12 @@ plugins:
       output_path: download/fortinet-secure-cloud-blueprint-hol.pdf
       enabled_if_env: ENABLE_PDF_EXPORT
 
-# Extra JavaScript
+# Extra CSS and JavaScript
+extra_css:
+  - extra.css
+
 extra_javascript:
-  - javascripts/extra.js
+  - custom.js
 
 # Social links
 extra:
