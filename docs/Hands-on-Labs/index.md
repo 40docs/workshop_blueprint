@@ -4,7 +4,14 @@
 
 ---
 
-<center>![](images/icon-azure-128.svg) ![](images/icon-fortigate.svg) ![](images/icon-fortiweb-dark-128.svg)</center>
+<div align="center" markdown="1">
+
+![](images/icon-azure-128.svg){ width="128" }
+![](images/icon-fortigate.svg){ width="128" }
+![](images/icon-fortiweb-dark-128.svg){ width="128" }
+
+</div>
+
 ---
 
 ## Introduction
